@@ -1,10 +1,10 @@
 # AWS-CLI
 
-- Some commands to create tools aws using a terminal.
+-Some commands to create tools aws using a terminal.
 
-- To know more commands run:   ` ec2 aws help    `
+-To know more commands run:   ` ec2 aws help    `
 
-- Before start these commands you must give access to your computer. (access key, and edit permissions IAM) 
+-Before start these commands you must give access to your computer. (access key, and edit permissions IAM) 
 
 ## command - create ec2:
    ```
@@ -16,6 +16,10 @@ aws ec2 run-instances \
 --security-group-ids sg-xxxxx0e48105xxxx \
 --subnet-id subnet-xxxxd4008bxxxxxx
    ```
+-You must write a security group and a subnet you want to use.
+
+-The image I'm using is us-east 1 (virginia) 
+
 <details>
 <summary>Some commands will generate a json message, like this example bellow: </summary>
 <pre>
